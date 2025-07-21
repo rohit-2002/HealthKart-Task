@@ -1,2 +1,42 @@
-# HealthKart-Task
-An interactive Streamlit dashboard to analyze influencer marketing performance across platforms (Instagram, YouTube). Tracks campaign ROI, ROAS, influencer insights, post performance, and payout tracking with CSV upload support and export options.
+# 📊 HealthKart Influencer Campaign Dashboard
+
+A Streamlit dashboard to analyze influencer marketing campaign performance for HealthKart.
+
+## Features
+- Upload CSV file of influencer campaign data
+- View aggregated metrics: revenue, ROAS, conversions
+- Filter by influencers, platforms
+- View insights via Plotly visualizations
+- Export reports as downloadable files
+
+## File Structure
+- `dashboard.py`: Main Streamlit app
+- `sample_data.csv`: Sample data format
+- `requirements.txt`: Python dependencies
+
+## Setup Instructions
+
+```bash
+git clone https://github.com/rohit-2002/HealthKart-Task.git
+cd HealthKart-Task
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+---
+
+## Assumptions
+- All influencer data includes fields like `id`, `revenue`, `ROAS`, `platform`, `date`
+- CSV headers must match those expected by the app (see sample CSV)
+- Campaign data is cleaned before upload
+
+---
+
+## Deliverables
+
+- **Working Dashboard:** [healthkart-task.streamlit.app](https://healthkart-task.streamlit.app)  
+- **GitHub Repo:** [github.com/rohit-2002/HealthKart-Task](https://github.com/rohit-2002/HealthKart-Task)  
+- **Summary Report:** [View Summary Report](https://docs.google.com/document/d/1LaQ9HjdNXn67QFdykwMwWBDjpBiWxfaiByYKcIdYWHU/edit?usp=sharing)
+
+---
