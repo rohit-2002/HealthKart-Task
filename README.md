@@ -10,8 +10,7 @@ A Streamlit dashboard to analyze influencer marketing campaign performance for H
 - Export reports as downloadable files
 
 ## File Structure
-- `dashboard.py`: Main Streamlit app
-- `sample_data.csv`: Sample data format
+- `app.py`: Main Streamlit app
 - `requirements.txt`: Python dependencies
 
 ## Setup Instructions
